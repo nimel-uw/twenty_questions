@@ -1,5 +1,3 @@
 # twenty_questions
 
-In the game 20 questions the player begins by thinking of an object. The computers goal is to successfully guess what that object is. The computer will ask the player a set of 20 questions (or less), attempting to narrow down the list of possible results until it finally thinks it knows the answer. It will then present the result to the player. If the computer successfully guesses the object it wins, otherwise it loses.
-
-The 'knowledge' the computer stores about the world can be represented as a binary tree. Each non-leaf node stores a question that helps the computer narrow down the space of possible answers, while each leaf node stores the computer guess.
+This is a program that imitates the game of Twenty Questions on the command line. In the game, a user starts by thinking of some object or other, and the computer's job is to guess it in under 20 questions. The "knowledge" that the computer uses to ask yes or no questions can be represented as a binary tree. This game can be played with a small default tree or using a loaded save file, which the user can (and should!) open to see or edit the questions that will be asked.
